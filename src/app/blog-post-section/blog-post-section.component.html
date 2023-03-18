@@ -5,10 +5,12 @@
     <p class="blog-post-description">{{ post.description }}</p>
     <div class="blog-post-author">
       <img [src]="post.author.image" alt="Author Image" class="author-image" />
-      <div class="author-details">
-        <p class="author-name">{{ post.author.name }}</p>
-        <p class="author-website">From: {{ post.author.website }}</p>
+      <span class="author-name">{{ post.author.name }}</span>
+      <span class="verification-icon">
+      <img src="./assets/check-mark.png" alt="Verified" class="verified-icon" *ngIf="post.verified">  </span>
+
+    </div>
+
+    <p class="author-website">From: {{ post.author.website }}</p>
       </div>
     </div>
-  </div>
-</div>
