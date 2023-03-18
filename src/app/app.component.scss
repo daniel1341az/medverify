@@ -1,0 +1,44 @@
+header {
+
+  padding: 1rem 0;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+  margin-bottom: 1rem;
+  position: relative;
+  top: 55px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.container {
+  max-width: calc(100% - 600px);
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-top: 100px;
+}
+
+.title h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
