@@ -13,6 +13,7 @@ interface BlogPost {
   author: Author;
   description: string;
   verified: boolean; //sets blog verification status
+  category: string;
 }
 
 @Component({
@@ -25,6 +26,7 @@ export class BlogPostSectionComponent implements OnInit {
     {
       title: 'Top 10 Travel Destinations for 2023',
       image: 'https://source.unsplash.com/random/800x600',
+      category: 'Travel',
       author: {
         name: 'John Doe',
         image: 'https://source.unsplash.com/random/50x50',
@@ -36,6 +38,7 @@ export class BlogPostSectionComponent implements OnInit {
     {
       title: 'Best Travel Gadgets for Your Next Adventure',
       image: 'https://source.unsplash.com/random/800x600?gadgets',
+      category: 'Travel',
       author: {
         name: 'Jane Smith',
         image: 'https://source.unsplash.com/random/50x50?person',
@@ -48,6 +51,7 @@ export class BlogPostSectionComponent implements OnInit {
     {
       title: 'How to Travel on a Budget and Still Have Fun',
       image: 'https://source.unsplash.com/random/800x600?budget-travel',
+      category: 'Travel',
       author: {
         name: 'Mark Taylor',
         image: 'https://source.unsplash.com/random/50x50?people',
@@ -59,6 +63,7 @@ export class BlogPostSectionComponent implements OnInit {
     {
       title: '7 Must-Try Street Foods Around the World',
       image: 'https://source.unsplash.com/random/800x600?street-food',
+      category: 'Travel',
       author: {
         name: 'Emily Johnson',
         image: 'https://source.unsplash.com/random/50x50?woman',
@@ -70,6 +75,7 @@ export class BlogPostSectionComponent implements OnInit {
     {
       title: 'Eco-Friendly Travel: Tips for Sustainable Tourism',
       image: 'https://source.unsplash.com/random/800x600?eco-travel',
+      category: 'Travel',
       author: {
         name: 'Sam Brown',
         image: 'https://source.unsplash.com/random/50x50?face',
@@ -81,6 +87,7 @@ export class BlogPostSectionComponent implements OnInit {
     {
       title: 'The Ultimate Packing List for Long-Term Travel',
       image: 'https://source.unsplash.com/random/800x600?packing',
+      category: 'Travel',
       author: {
         name: 'Linda Williams',
         image: 'https://source.unsplash.com/random/50x50?person',
